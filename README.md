@@ -43,11 +43,12 @@ Unit names live in [`src/data/units.json`](src/data/units.json) as a simple
 `{ faction, units: [{ name, role }] }` list, imported via
 [`src/data/roster.ts`](src/data/roster.ts).
 
-The roster is derived from a community 10th-edition datasheet dump. 11th edition
-(June 2026) kept existing codexes and datasheets valid rather than resetting the
-roster, so these names are the current 11th-edition model roster, plus the new
-Armageddon launch-box kits. To refresh the data, replace `units.json` — nothing
-else depends on the source edition.
+The roster is extracted from the community-maintained
+[BSData 11th-edition catalogues](https://github.com/BSData/wh40k-11e) — the
+open-source army-builder data project (not derived from Wahapedia). Legends
+datasheets are included and tagged `[Legends]`. To refresh, run
+[`scripts/build_roster.py`](scripts/build_roster.py) and copy the output over
+`units.json` — nothing else depends on the source.
 
 *This is an unofficial fan project. Warhammer 40,000 and all associated names are
 trademarks of Games Workshop. No GW rules content or points values are included —

@@ -4,11 +4,11 @@ import raw from './units.json';
 /**
  * Bundled Warhammer 40,000 roster (faction -> datasheet names).
  *
- * Derived from a community 10th-edition datasheet dump. 11th edition (June 2026)
- * kept existing codexes/datasheets valid rather than resetting the roster, so
- * these names are the current 11th-edition model roster, plus the new Armageddon
- * launch-box kits. Swap this JSON to refresh the data — nothing else depends on
- * the source edition.
+ * Extracted from the community-maintained BSData 11th-edition catalogues
+ * (https://github.com/BSData/wh40k-11e) — the open-source army-builder data
+ * project, not derived from Wahapedia. Legends datasheets are included and
+ * tagged "[Legends]". To refresh, re-run scripts/build_roster and replace this
+ * JSON — nothing else depends on the source.
  */
 export const ROSTER: RosterFaction[] = raw as RosterFaction[];
 
