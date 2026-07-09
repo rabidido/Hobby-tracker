@@ -15,11 +15,10 @@ export function ProgressSummary({ units }: { units: OwnedUnit[] }) {
         </div>
         <div className="summary__label">
           <div>
-            <span className="summary__count">{models}</span> model{models === 1 ? '' : 's'}
+            <span className="summary__count">{units.length}</span> unit{units.length === 1 ? '' : 's'}
           </div>
           <div>
-            <span className="summary__count">{units.length}</span> entr
-            {units.length === 1 ? 'y' : 'ies'}
+            <span className="summary__count">{models}</span> model{models === 1 ? '' : 's'}
           </div>
         </div>
       </div>
