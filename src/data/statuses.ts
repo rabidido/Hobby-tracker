@@ -8,15 +8,21 @@ import type { StatusDef, StatusId } from '../types';
  * "Based" is deliberately NOT in here — a model can be based at any point, so
  * it's tracked as an independent flag on each unit.
  */
+// Each phase (build / prime / paint) has one colour shared by its WIP and done
+// states; the WIP state is told apart by a diagonal stripe, not a hue change.
+const BUILD = '#d9903f';
+const PRIME = '#93aacb';
+const PAINT = '#5aa469';
+
 export const STATUSES: StatusDef[] = [
   { id: 'unbought', label: 'Unbought', short: 'Wishlist', color: '#6b7280', progress: 0 },
   { id: 'unbuilt', label: 'Unbuilt', short: 'On sprue', color: '#a8443a', progress: 0.05 },
-  { id: 'building', label: 'Building', short: 'Building', color: '#cf6a34', progress: 0.17, wip: true },
-  { id: 'built', label: 'Built', short: 'Built', color: '#d9903f', progress: 0.33 },
-  { id: 'priming', label: 'Priming', short: 'Priming', color: '#6f88b0', progress: 0.42, wip: true },
-  { id: 'primed', label: 'Primed', short: 'Primed', color: '#93aacb', progress: 0.5 },
-  { id: 'painting', label: 'Painting', short: 'Painting', color: '#d9a441', progress: 0.72, wip: true },
-  { id: 'painted', label: 'Painted', short: 'Painted', color: '#5aa469', progress: 1 },
+  { id: 'building', label: 'Building', short: 'Building', color: BUILD, progress: 0.17, wip: true },
+  { id: 'built', label: 'Built', short: 'Built', color: BUILD, progress: 0.33 },
+  { id: 'priming', label: 'Priming', short: 'Priming', color: PRIME, progress: 0.42, wip: true },
+  { id: 'primed', label: 'Primed', short: 'Primed', color: PRIME, progress: 0.5 },
+  { id: 'painting', label: 'Painting', short: 'Painting', color: PAINT, progress: 0.72, wip: true },
+  { id: 'painted', label: 'Painted', short: 'Painted', color: PAINT, progress: 1 },
 ];
 
 export const STATUS_MAP: Record<StatusId, StatusDef> = STATUSES.reduce(

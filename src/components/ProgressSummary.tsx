@@ -43,7 +43,10 @@ export function ProgressSummary({ units }: { units: OwnedUnit[] }) {
       <div className="legend">
         {STATUSES.map((s) => (
           <div className="legend__item" key={s.id}>
-            <span className="legend__dot" style={{ background: s.color }} />
+            <span
+              className={`legend__dot ${s.wip ? 'is-wip' : ''}`}
+              style={{ backgroundColor: s.color }}
+            />
             {s.label}
             <span className="legend__n">{byStatus.get(s.id) ?? 0}</span>
           </div>

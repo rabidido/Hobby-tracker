@@ -49,7 +49,7 @@ export function UnitCard({ unit, onOpen, onAdvance, showFaction }: Props) {
       </div>
 
       <button
-        className="statusbtn"
+        className={`statusbtn ${status.wip ? 'statusbtn--wip' : ''}`}
         onClick={(e) => {
           e.stopPropagation();
           if (nextDef) onAdvance(unit);
@@ -59,10 +59,7 @@ export function UnitCard({ unit, onOpen, onAdvance, showFaction }: Props) {
           nextDef ? `Advance ${unit.name} to ${nextDef.label}` : `${unit.name} is painted`
         }
       >
-        <span className="statusbtn__label">
-          {status.wip && <span className="wipdot" style={{ background: status.color }} />}
-          {status.label}
-        </span>
+        <span className="statusbtn__label">{status.label}</span>
         {nextDef && (
           <span className="statusbtn__hint">
             {nextDef.short} <IconArrowRight />

@@ -113,7 +113,10 @@ export function ProjectView({
                 }
                 onClick={() => setFilter((f) => (f === s.id ? 'all' : s.id))}
               >
-                <span className="chip__dot" style={{ background: s.color }} />
+                <span
+                  className={`chip__dot ${s.wip ? 'is-wip' : ''}`}
+                  style={{ backgroundColor: s.color }}
+                />
                 {s.label}
               </button>
             ))}

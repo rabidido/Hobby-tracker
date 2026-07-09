@@ -429,9 +429,18 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 3px;
-  background: color-mix(in srgb, var(--status) 16%, transparent);
+  background-color: color-mix(in srgb, var(--status) 16%, transparent);
   border: 1px solid color-mix(in srgb, var(--status) 40%, transparent);
   color: var(--status);
+}
+/* Work-in-progress state: diagonal stripe in the phase colour (same hue as the
+   matching "done" state, told apart by the hatch). */
+.statusbtn--wip {
+  background-image: repeating-linear-gradient(
+    45deg,
+    color-mix(in srgb, var(--status) 26%, transparent) 0 5px,
+    transparent 5px 10px
+  );
 }
 .statusbtn__label {
   font-size: 0.72rem;
@@ -442,33 +451,14 @@ textarea {
   gap: 5px;
 }
 
-/* Pulsing dot marking a work-in-progress state. */
-.wipdot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  flex: none;
-  position: relative;
-  animation: wippulse 1.6s ease-in-out infinite;
-}
-@keyframes wippulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 0 currentColor;
-    opacity: 1;
-  }
-  50% {
-    box-shadow: 0 0 0 3px transparent;
-    opacity: 0.55;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .wipdot {
-    animation: none;
-  }
-}
-.statuspick--wip.on {
-  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+/* Small colour swatch (legend / chips / status picker) for a WIP state: a fine
+   diagonal hatch so it reads as the striped variant of its phase colour. */
+.is-wip {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.55) 0 1.5px,
+    transparent 1.5px 4px
+  );
 }
 .statusbtn__hint {
   font-size: 0.6rem;
