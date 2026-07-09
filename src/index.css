@@ -172,11 +172,21 @@ textarea {
 .bar__seg + .bar__seg {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
+/* Work-in-progress segments get a diagonal hatch so they read as "active". */
+.bar__seg--wip {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.28) 0,
+    rgba(255, 255, 255, 0.28) 3px,
+    transparent 3px,
+    transparent 7px
+  );
+}
 
 .legend {
   margin-top: 12px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
   gap: 8px 10px;
 }
 .legend__item {
@@ -398,6 +408,38 @@ textarea {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Pulsing dot marking a work-in-progress state. */
+.wipdot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex: none;
+  position: relative;
+  animation: wippulse 1.6s ease-in-out infinite;
+}
+@keyframes wippulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 currentColor;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 3px transparent;
+    opacity: 0.55;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wipdot {
+    animation: none;
+  }
+}
+.statuspick--wip.on {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
 }
 .statusbtn__hint {
   font-size: 0.6rem;

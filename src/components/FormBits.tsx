@@ -55,10 +55,14 @@ export function StatusPicker({
         <button
           type="button"
           key={s.id}
-          className={s.id === value ? 'on' : ''}
+          className={`${s.id === value ? 'on' : ''} ${s.wip ? 'statuspick--wip' : ''}`}
           onClick={() => onChange(s.id)}
         >
-          <span className="legend__dot" style={{ background: s.color }} />
+          {s.wip ? (
+            <span className="wipdot" style={{ background: s.color }} />
+          ) : (
+            <span className="legend__dot" style={{ background: s.color }} />
+          )}
           {s.label}
         </button>
       ))}

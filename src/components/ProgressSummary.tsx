@@ -31,8 +31,8 @@ export function ProgressSummary({ units }: { units: OwnedUnit[] }) {
           return (
             <div
               key={s.id}
-              className="bar__seg"
-              style={{ flexGrow: n, background: s.color }}
+              className={`bar__seg ${s.wip ? 'bar__seg--wip' : ''}`}
+              style={{ flexGrow: n, backgroundColor: s.color }}
               title={`${s.label}: ${n}`}
             />
           );

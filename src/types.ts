@@ -1,9 +1,11 @@
 export type StatusId =
   | 'unbought'
   | 'unbuilt'
+  | 'building'
   | 'built'
+  | 'priming'
   | 'primed'
-  | 'in_progress'
+  | 'painting'
   | 'painted';
 
 export interface StatusDef {
@@ -15,6 +17,8 @@ export interface StatusDef {
   color: string;
   /** Progress weight 0..1 used for the "completion" metric. */
   progress: number;
+  /** True for the "actively being worked on" states (building/priming/painting). */
+  wip?: boolean;
 }
 
 /** A unit from the bundled roster. */

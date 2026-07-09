@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import type { OwnedUnit, Project, StatusId } from '../types';
+import { normalizeStatus } from '../data/statuses';
 
 const KEY_V2 = 'wh40k-hobby-tracker:v2';
 const KEY_V1 = 'wh40k-hobby-tracker:v1';
@@ -41,7 +42,7 @@ function migrateV1(oldUnits: Array<Record<string, unknown>>): State {
       faction,
       role: String(u.role ?? 'Other'),
       projectId: project.id,
-      status: (u.status as StatusId) ?? 'unbuilt',
+      status: normalizeStatus(String(u.status ?? 'unbuilt')),
       based: Boolean(u.based),
       quantity: Number(u.quantity) || 1,
       notes: String(u.notes ?? ''),
@@ -67,7 +68,12 @@ function loadState(): State {
     const raw2 = localStorage.getItem(KEY_V2);
     if (raw2) {
       const parsed = JSON.parse(raw2) as State;
-      if (parsed && Array.isArray(parsed.projects) && Array.isArray(parsed.units)) return parsed;
+      if (parsed && Array.isArray(parsed.projects) && Array.isArray(parsed.units)) {
+        return {
+          projects: parsed.projects,
+          units: parsed.units.map((u) => ({ ...u, status: normalizeStatus(String(u.status)) })),
+        };
+      }
     }
     const raw1 = localStorage.getItem(KEY_V1);
     if (raw1) {
