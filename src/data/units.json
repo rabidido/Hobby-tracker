@@ -1,0 +1,3843 @@
+[
+{
+"faction": "Adepta Sororitas",
+"units": [
+{
+"name": "Aestred Thurga And Agathae Dolan",
+"role": "Epic Hero"
+},
+{
+"name": "Arco-Flagellants",
+"role": "Other"
+},
+{
+"name": "Battle Sisters Squad",
+"role": "Battleline"
+},
+{
+"name": "Canoness",
+"role": "Character"
+},
+{
+"name": "Castigator",
+"role": "Vehicle"
+},
+{
+"name": "Celestian Sacresants",
+"role": "Other"
+},
+{
+"name": "Crusaders",
+"role": "Other"
+},
+{
+"name": "Daemonifuge",
+"role": "Epic Hero"
+},
+{
+"name": "Death Cult Assassins",
+"role": "Other"
+},
+{
+"name": "Dialogus",
+"role": "Character"
+},
+{
+"name": "Dogmata",
+"role": "Character"
+},
+{
+"name": "Dominion Squad",
+"role": "Other"
+},
+{
+"name": "Exorcist",
+"role": "Vehicle"
+},
+{
+"name": "Hospitaller",
+"role": "Character"
+},
+{
+"name": "Imagifier",
+"role": "Character"
+},
+{
+"name": "Immolator",
+"role": "Dedicated Transport"
+},
+{
+"name": "Junith Eruita",
+"role": "Epic Hero"
+},
+{
+"name": "Missionary",
+"role": "Character"
+},
+{
+"name": "Mortifiers",
+"role": "Vehicle"
+},
+{
+"name": "Morvenn Vahl",
+"role": "Epic Hero"
+},
+{
+"name": "Palatine",
+"role": "Character"
+},
+{
+"name": "Paragon Warsuits",
+"role": "Vehicle"
+},
+{
+"name": "Penitent Engines",
+"role": "Vehicle"
+},
+{
+"name": "Preacher",
+"role": "Character"
+},
+{
+"name": "Repentia Squad",
+"role": "Other"
+},
+{
+"name": "Retributor Squad",
+"role": "Other"
+},
+{
+"name": "Saint Celestine",
+"role": "Epic Hero"
+},
+{
+"name": "Seraphim Squad",
+"role": "Other"
+},
+{
+"name": "Sisters Novitiate Squad",
+"role": "Other"
+},
+{
+"name": "Sororitas Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Triumph Of Saint Katherine",
+"role": "Epic Hero"
+},
+{
+"name": "Zephyrim Squad",
+"role": "Other"
+}
+]
+},
+{
+"faction": "Adeptus Astartes",
+"units": [
+{
+"name": "Aggressor Squad",
+"role": "Other"
+},
+{
+"name": "Ancient In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Apothecary Biologis",
+"role": "Character"
+},
+{
+"name": "Assault Intercessor Squad",
+"role": "Battleline"
+},
+{
+"name": "Assault Squad",
+"role": "Other"
+},
+{
+"name": "Assault Squad With Jump Packs",
+"role": "Other"
+},
+{
+"name": "Astartes Servitors",
+"role": "Other"
+},
+{
+"name": "Attack Bike Squad",
+"role": "Other"
+},
+{
+"name": "Ballistus Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Bike Squad",
+"role": "Other"
+},
+{
+"name": "Bladeguard Ancient",
+"role": "Character"
+},
+{
+"name": "Bladeguard Veteran Squad",
+"role": "Other"
+},
+{
+"name": "Brutalis Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Captain",
+"role": "Character"
+},
+{
+"name": "Captain In Gravis Armour",
+"role": "Character"
+},
+{
+"name": "Captain In Phobos Armour",
+"role": "Character"
+},
+{
+"name": "Captain In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Captain On Bike",
+"role": "Character"
+},
+{
+"name": "Captain With Jump Pack",
+"role": "Character"
+},
+{
+"name": "Captain With Relic Shield",
+"role": "Character"
+},
+{
+"name": "Centurion Assault Squad",
+"role": "Other"
+},
+{
+"name": "Centurion Devastator Squad",
+"role": "Other"
+},
+{
+"name": "Chaplain",
+"role": "Character"
+},
+{
+"name": "Chaplain In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Chaplain On Bike",
+"role": "Character"
+},
+{
+"name": "Chaplain With Jump Pack",
+"role": "Character"
+},
+{
+"name": "Command Squad",
+"role": "Other"
+},
+{
+"name": "Contemptor Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Desolation Squad",
+"role": "Other"
+},
+{
+"name": "Devastator Squad",
+"role": "Other"
+},
+{
+"name": "Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Drop Pod",
+"role": "Vehicle"
+},
+{
+"name": "Eliminator Squad",
+"role": "Other"
+},
+{
+"name": "Eradicator Squad",
+"role": "Other"
+},
+{
+"name": "Firestrike Servo-Turrets",
+"role": "Vehicle"
+},
+{
+"name": "Gladiator Lancer",
+"role": "Vehicle"
+},
+{
+"name": "Gladiator Reaper",
+"role": "Vehicle"
+},
+{
+"name": "Gladiator Valiant",
+"role": "Vehicle"
+},
+{
+"name": "Hammerfall Bunker",
+"role": "Fortification"
+},
+{
+"name": "Heavy Intercessor Squad",
+"role": "Battleline"
+},
+{
+"name": "Hellblaster Squad",
+"role": "Other"
+},
+{
+"name": "Hunter",
+"role": "Vehicle"
+},
+{
+"name": "Impulsor",
+"role": "Dedicated Transport"
+},
+{
+"name": "Inceptor Squad",
+"role": "Other"
+},
+{
+"name": "Incursor Squad",
+"role": "Other"
+},
+{
+"name": "Infernus Squad",
+"role": "Other"
+},
+{
+"name": "Infiltrator Squad",
+"role": "Other"
+},
+{
+"name": "Intercessor Squad",
+"role": "Battleline"
+},
+{
+"name": "Invader Atv",
+"role": "Other"
+},
+{
+"name": "Invictor Tactical Warsuit",
+"role": "Vehicle"
+},
+{
+"name": "Ironclad Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Judiciar",
+"role": "Character"
+},
+{
+"name": "Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Land Raider Crusader",
+"role": "Vehicle"
+},
+{
+"name": "Land Raider Redeemer",
+"role": "Vehicle"
+},
+{
+"name": "Land Speeder",
+"role": "Vehicle"
+},
+{
+"name": "Land Speeder Storm",
+"role": "Dedicated Transport"
+},
+{
+"name": "Land Speeder Tornado",
+"role": "Vehicle"
+},
+{
+"name": "Land Speeder Typhoon",
+"role": "Vehicle"
+},
+{
+"name": "Librarian",
+"role": "Character"
+},
+{
+"name": "Librarian In Phobos Armour",
+"role": "Character"
+},
+{
+"name": "Librarian In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Librarian With Jump Pack",
+"role": "Character"
+},
+{
+"name": "Lieutenant",
+"role": "Character"
+},
+{
+"name": "Lieutenant In Phobos Armour",
+"role": "Character"
+},
+{
+"name": "Lieutenant In Reiver Armour",
+"role": "Character"
+},
+{
+"name": "Lieutenant With Combi-Weapon",
+"role": "Character"
+},
+{
+"name": "Outrider Squad",
+"role": "Other"
+},
+{
+"name": "Predator Annihilator",
+"role": "Vehicle"
+},
+{
+"name": "Predator Destructor",
+"role": "Vehicle"
+},
+{
+"name": "Primaris Ancient",
+"role": "Character"
+},
+{
+"name": "Primaris Apothecary",
+"role": "Character"
+},
+{
+"name": "Primaris Captain",
+"role": "Character"
+},
+{
+"name": "Primaris Chaplain",
+"role": "Character"
+},
+{
+"name": "Primaris Company Champion",
+"role": "Character"
+},
+{
+"name": "Primaris Librarian",
+"role": "Character"
+},
+{
+"name": "Primaris Lieutenant",
+"role": "Character"
+},
+{
+"name": "Primaris Techmarine",
+"role": "Character"
+},
+{
+"name": "Razorback",
+"role": "Dedicated Transport"
+},
+{
+"name": "Redemptor Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Reiver Squad",
+"role": "Other"
+},
+{
+"name": "Relic Terminator Squad",
+"role": "Other"
+},
+{
+"name": "Repulsor",
+"role": "Vehicle"
+},
+{
+"name": "Repulsor Executioner",
+"role": "Vehicle"
+},
+{
+"name": "Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Scout Bike Squad",
+"role": "Other"
+},
+{
+"name": "Scout Sniper Squad",
+"role": "Other"
+},
+{
+"name": "Scout Squad",
+"role": "Other"
+},
+{
+"name": "Stalker",
+"role": "Vehicle"
+},
+{
+"name": "Sternguard Veteran Squad",
+"role": "Other"
+},
+{
+"name": "Storm Speeder Hailstrike",
+"role": "Vehicle"
+},
+{
+"name": "Storm Speeder Hammerstrike",
+"role": "Vehicle"
+},
+{
+"name": "Storm Speeder Thunderstrike",
+"role": "Vehicle"
+},
+{
+"name": "Stormhawk Interceptor",
+"role": "Vehicle"
+},
+{
+"name": "Stormraven Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Stormtalon Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Suppressor Squad",
+"role": "Other"
+},
+{
+"name": "Tactical Squad",
+"role": "Battleline"
+},
+{
+"name": "Techmarine",
+"role": "Character"
+},
+{
+"name": "Terminator Assault Squad",
+"role": "Other"
+},
+{
+"name": "Terminator Squad",
+"role": "Other"
+},
+{
+"name": "Thunderfire Cannon",
+"role": "Vehicle"
+},
+{
+"name": "Vanguard Veteran Squad",
+"role": "Other"
+},
+{
+"name": "Vanguard Veteran Squad With Jump Packs",
+"role": "Other"
+},
+{
+"name": "Vindicator",
+"role": "Vehicle"
+},
+{
+"name": "Whirlwind",
+"role": "Vehicle"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Black Templars",
+"units": [
+{
+"name": "Black Templars Gladiator Lancer",
+"role": "Vehicle"
+},
+{
+"name": "Black Templars Gladiator Reaper",
+"role": "Vehicle"
+},
+{
+"name": "Black Templars Gladiator Valiant",
+"role": "Vehicle"
+},
+{
+"name": "Black Templars Impulsor",
+"role": "Dedicated Transport"
+},
+{
+"name": "Black Templars Repulsor",
+"role": "Vehicle"
+},
+{
+"name": "Black Templars Repulsor Executioner",
+"role": "Vehicle"
+},
+{
+"name": "Castellan",
+"role": "Character"
+},
+{
+"name": "Chaplain Grimaldus",
+"role": "Epic Hero"
+},
+{
+"name": "Crusader Squad",
+"role": "Battleline"
+},
+{
+"name": "High Marshal Helbrecht",
+"role": "Epic Hero"
+},
+{
+"name": "Marshal",
+"role": "Character"
+},
+{
+"name": "Primaris Crusader Squad",
+"role": "Battleline"
+},
+{
+"name": "Primaris Sword Brethren",
+"role": "Other"
+},
+{
+"name": "The Emperor's Champion",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Blood Angels",
+"units": [
+{
+"name": "Astorath",
+"role": "Epic Hero"
+},
+{
+"name": "Baal Predator",
+"role": "Vehicle"
+},
+{
+"name": "Brother Corbulo",
+"role": "Epic Hero"
+},
+{
+"name": "Captain Tycho",
+"role": "Epic Hero"
+},
+{
+"name": "Chief Librarian Mephiston",
+"role": "Epic Hero"
+},
+{
+"name": "Commander Dante",
+"role": "Epic Hero"
+},
+{
+"name": "Death Company Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Death Company Intercessors",
+"role": "Other"
+},
+{
+"name": "Death Company Marines",
+"role": "Other"
+},
+{
+"name": "Death Company Marines With Jump Packs",
+"role": "Other"
+},
+{
+"name": "Furioso Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Gabriel Seth",
+"role": "Epic Hero"
+},
+{
+"name": "Lemartes",
+"role": "Epic Hero"
+},
+{
+"name": "Librarian Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Sanguinary Guard",
+"role": "Other"
+},
+{
+"name": "Sanguinary Priest",
+"role": "Character"
+},
+{
+"name": "Sanguinary Priest With Jump Pack",
+"role": "Character"
+},
+{
+"name": "The Sanguinor",
+"role": "Epic Hero"
+},
+{
+"name": "Tycho The Lost",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Dark Angels",
+"units": [
+{
+"name": "Asmodai",
+"role": "Epic Hero"
+},
+{
+"name": "Azrael",
+"role": "Epic Hero"
+},
+{
+"name": "Belial",
+"role": "Epic Hero"
+},
+{
+"name": "Deathwing Command Squad",
+"role": "Other"
+},
+{
+"name": "Deathwing Knights",
+"role": "Other"
+},
+{
+"name": "Deathwing Strikemaster",
+"role": "Character"
+},
+{
+"name": "Deathwing Terminator Squad",
+"role": "Other"
+},
+{
+"name": "Ezekiel",
+"role": "Epic Hero"
+},
+{
+"name": "Lazarus",
+"role": "Epic Hero"
+},
+{
+"name": "Lion El'Jonson",
+"role": "Epic Hero"
+},
+{
+"name": "Nephilim Jetfighter",
+"role": "Vehicle"
+},
+{
+"name": "Ravenwing Black Knights",
+"role": "Other"
+},
+{
+"name": "Ravenwing Command Squad",
+"role": "Other"
+},
+{
+"name": "Ravenwing Dark Talon",
+"role": "Vehicle"
+},
+{
+"name": "Ravenwing Darkshroud",
+"role": "Vehicle"
+},
+{
+"name": "Ravenwing Land Speeder Vengeance",
+"role": "Vehicle"
+},
+{
+"name": "Ravenwing Talonmaster",
+"role": "Character"
+},
+{
+"name": "Sammael",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Deathwatch",
+"units": [
+{
+"name": "Corvus Blackstar",
+"role": "Vehicle"
+},
+{
+"name": "Deathwatch Terminator Squad",
+"role": "Other"
+},
+{
+"name": "Deathwatch Veterans",
+"role": "Battleline"
+},
+{
+"name": "Fortis Kill Team",
+"role": "Other"
+},
+{
+"name": "Indomitor Kill Team",
+"role": "Other"
+},
+{
+"name": "Kill Team Cassius",
+"role": "Epic Hero"
+},
+{
+"name": "Proteus Kill Team",
+"role": "Other"
+},
+{
+"name": "Spectrus Kill Team",
+"role": "Other"
+},
+{
+"name": "Veteran Bike Squad",
+"role": "Other"
+},
+{
+"name": "Watch Captain Artemis",
+"role": "Epic Hero"
+},
+{
+"name": "Watch Master",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Imperial Fists",
+"units": [
+{
+"name": "Darnath Lysander",
+"role": "Epic Hero"
+},
+{
+"name": "Pedro Kantor",
+"role": "Epic Hero"
+},
+{
+"name": "Tor Garadon",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Iron Hands",
+"units": [
+{
+"name": "Iron Father Feirros",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Raven Guard",
+"units": [
+{
+"name": "Kayvaan Shrike",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Salamanders",
+"units": [
+{
+"name": "Adrax Agatone",
+"role": "Epic Hero"
+},
+{
+"name": "Vulkan He'stan",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Space Wolves",
+"units": [
+{
+"name": "Arjac Rockfist",
+"role": "Epic Hero"
+},
+{
+"name": "Bjorn The Fell-Handed",
+"role": "Epic Hero"
+},
+{
+"name": "Blood Claws",
+"role": "Battleline"
+},
+{
+"name": "Canis Wolfborn",
+"role": "Epic Hero"
+},
+{
+"name": "Cyberwolf",
+"role": "Character"
+},
+{
+"name": "Fenrisian Wolves",
+"role": "Other"
+},
+{
+"name": "Grey Hunters",
+"role": "Battleline"
+},
+{
+"name": "Harald Deathwolf",
+"role": "Epic Hero"
+},
+{
+"name": "Hounds Of Morkai",
+"role": "Other"
+},
+{
+"name": "Iron Priest",
+"role": "Character"
+},
+{
+"name": "Krom Dragongaze",
+"role": "Epic Hero"
+},
+{
+"name": "Logan Grimnar",
+"role": "Epic Hero"
+},
+{
+"name": "Logan Grimnar On Stormrider",
+"role": "Epic Hero"
+},
+{
+"name": "Long Fangs",
+"role": "Other"
+},
+{
+"name": "Lukas The Trickster",
+"role": "Epic Hero"
+},
+{
+"name": "Murderfang",
+"role": "Epic Hero"
+},
+{
+"name": "Njal Stormcaller",
+"role": "Epic Hero"
+},
+{
+"name": "Ragnar Blackmane",
+"role": "Epic Hero"
+},
+{
+"name": "Skyclaws",
+"role": "Other"
+},
+{
+"name": "Space Wolves Venerable Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Stormfang Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Stormwolf",
+"role": "Vehicle"
+},
+{
+"name": "Thunderwolf Cavalry",
+"role": "Other"
+},
+{
+"name": "Ulrik The Slayer",
+"role": "Epic Hero"
+},
+{
+"name": "Wolf Guard",
+"role": "Other"
+},
+{
+"name": "Wolf Guard Battle Leader In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Wolf Guard Battle Leader On Thunderwolf",
+"role": "Character"
+},
+{
+"name": "Wolf Guard Pack Leader",
+"role": "Character"
+},
+{
+"name": "Wolf Guard Pack Leader In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Wolf Guard Pack Leader With Jump Pack",
+"role": "Character"
+},
+{
+"name": "Wolf Guard Terminators",
+"role": "Other"
+},
+{
+"name": "Wolf Lord On Thunderwolf",
+"role": "Character"
+},
+{
+"name": "Wolf Scouts",
+"role": "Other"
+},
+{
+"name": "Wulfen",
+"role": "Other"
+},
+{
+"name": "Wulfen Dreadnought",
+"role": "Vehicle"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, Ultramarines",
+"units": [
+{
+"name": "Captain Sicarius",
+"role": "Epic Hero"
+},
+{
+"name": "Chaplain Cassius",
+"role": "Epic Hero"
+},
+{
+"name": "Chief Librarian Tigurius",
+"role": "Epic Hero"
+},
+{
+"name": "Marneus Calgar",
+"role": "Epic Hero"
+},
+{
+"name": "Roboute Guilliman",
+"role": "Epic Hero"
+},
+{
+"name": "Sergeant Chronus",
+"role": "Epic Hero"
+},
+{
+"name": "Sergeant Telion",
+"role": "Epic Hero"
+},
+{
+"name": "Tyrannic War Veterans",
+"role": "Other"
+},
+{
+"name": "Uriel Ventris",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Astartes, White Scars",
+"units": [
+{
+"name": "Kor'sarro Khan",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Adeptus Custodes",
+"units": [
+{
+"name": "Aleya",
+"role": "Epic Hero"
+},
+{
+"name": "Allarus Custodians",
+"role": "Other"
+},
+{
+"name": "Anathema Psykana Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Blade Champion",
+"role": "Character"
+},
+{
+"name": "Custodian Guard",
+"role": "Battleline"
+},
+{
+"name": "Custodian Wardens",
+"role": "Other"
+},
+{
+"name": "Knight-Centura",
+"role": "Character"
+},
+{
+"name": "Prosecutors",
+"role": "Battleline"
+},
+{
+"name": "Shield-Captain",
+"role": "Character"
+},
+{
+"name": "Shield-Captain In Allarus Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Shield-Captain On Dawneagle Jetbike",
+"role": "Character"
+},
+{
+"name": "Trajann Valoris",
+"role": "Epic Hero"
+},
+{
+"name": "Valerian",
+"role": "Epic Hero"
+},
+{
+"name": "Venerable Contemptor Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Venerable Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Vertus Praetors",
+"role": "Other"
+},
+{
+"name": "Vigilators",
+"role": "Other"
+},
+{
+"name": "Witchseekers",
+"role": "Other"
+}
+]
+},
+{
+"faction": "Adeptus Mechanicus",
+"units": [
+{
+"name": "Archaeopter Fusilave",
+"role": "Vehicle"
+},
+{
+"name": "Archaeopter Stratoraptor",
+"role": "Vehicle"
+},
+{
+"name": "Archaeopter Transvector",
+"role": "Vehicle"
+},
+{
+"name": "Belisarius Cawl",
+"role": "Epic Hero"
+},
+{
+"name": "Corpuscarii Electro-Priests",
+"role": "Other"
+},
+{
+"name": "Cybernetica Datasmith",
+"role": "Character"
+},
+{
+"name": "Fulgurite Electro-Priests",
+"role": "Other"
+},
+{
+"name": "Ironstrider Ballistarii",
+"role": "Vehicle"
+},
+{
+"name": "Kastelan Robots",
+"role": "Vehicle"
+},
+{
+"name": "Kataphron Breachers",
+"role": "Other"
+},
+{
+"name": "Kataphron Destroyers",
+"role": "Other"
+},
+{
+"name": "Onager Dunecrawler",
+"role": "Vehicle"
+},
+{
+"name": "Pteraxii Skystalkers",
+"role": "Other"
+},
+{
+"name": "Pteraxii Sterylizors",
+"role": "Other"
+},
+{
+"name": "Serberys Raiders",
+"role": "Other"
+},
+{
+"name": "Serberys Sulphurhounds",
+"role": "Other"
+},
+{
+"name": "Servitors",
+"role": "Other"
+},
+{
+"name": "Sicarian Infiltrators",
+"role": "Other"
+},
+{
+"name": "Sicarian Ruststalkers",
+"role": "Other"
+},
+{
+"name": "Skitarii Marshal",
+"role": "Character"
+},
+{
+"name": "Skitarii Rangers",
+"role": "Battleline"
+},
+{
+"name": "Skitarii Vanguard",
+"role": "Battleline"
+},
+{
+"name": "Skorpius Disintegrator",
+"role": "Vehicle"
+},
+{
+"name": "Skorpius Dunerider",
+"role": "Dedicated Transport"
+},
+{
+"name": "Sydonian Dragoons",
+"role": "Vehicle"
+},
+{
+"name": "Tech-Priest Dominus",
+"role": "Character"
+},
+{
+"name": "Tech-Priest Enginseer",
+"role": "Character"
+},
+{
+"name": "Tech-Priest Manipulus",
+"role": "Character"
+},
+{
+"name": "Technoarcheologist",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Aeldari",
+"units": [
+{
+"name": "Asurmen",
+"role": "Epic Hero"
+},
+{
+"name": "Autarch",
+"role": "Character"
+},
+{
+"name": "Autarch Skyrunner",
+"role": "Character"
+},
+{
+"name": "Autarch Wayleaper",
+"role": "Character"
+},
+{
+"name": "Avatar Of Khaine",
+"role": "Epic Hero"
+},
+{
+"name": "Baharroth",
+"role": "Epic Hero"
+},
+{
+"name": "Corsair Voidreavers",
+"role": "Battleline"
+},
+{
+"name": "Corsair Voidscarred",
+"role": "Other"
+},
+{
+"name": "Crimson Hunter",
+"role": "Vehicle"
+},
+{
+"name": "Dark Reapers",
+"role": "Other"
+},
+{
+"name": "Death Jester",
+"role": "Character"
+},
+{
+"name": "Dire Avengers",
+"role": "Other"
+},
+{
+"name": "Eldrad Ulthran",
+"role": "Epic Hero"
+},
+{
+"name": "Falcon",
+"role": "Vehicle"
+},
+{
+"name": "Farseer",
+"role": "Character"
+},
+{
+"name": "Farseer Skyrunner",
+"role": "Character"
+},
+{
+"name": "Fire Dragons",
+"role": "Other"
+},
+{
+"name": "Fire Prism",
+"role": "Vehicle"
+},
+{
+"name": "Fuegan",
+"role": "Epic Hero"
+},
+{
+"name": "Guardian Defenders",
+"role": "Battleline"
+},
+{
+"name": "Hemlock Wraithfighter",
+"role": "Vehicle"
+},
+{
+"name": "Howling Banshees",
+"role": "Other"
+},
+{
+"name": "Illic Nightspear",
+"role": "Epic Hero"
+},
+{
+"name": "Jain Zar",
+"role": "Epic Hero"
+},
+{
+"name": "Karandras",
+"role": "Epic Hero"
+},
+{
+"name": "Maugan Ra",
+"role": "Epic Hero"
+},
+{
+"name": "Night Spinner",
+"role": "Vehicle"
+},
+{
+"name": "Prince Yriel",
+"role": "Epic Hero"
+},
+{
+"name": "Rangers",
+"role": "Other"
+},
+{
+"name": "Shadowseer",
+"role": "Character"
+},
+{
+"name": "Shining Spears",
+"role": "Other"
+},
+{
+"name": "Shroud Runners",
+"role": "Other"
+},
+{
+"name": "Skyweavers",
+"role": "Other"
+},
+{
+"name": "Solitaire",
+"role": "Epic Hero"
+},
+{
+"name": "Spiritseer",
+"role": "Character"
+},
+{
+"name": "Starweaver",
+"role": "Dedicated Transport"
+},
+{
+"name": "Storm Guardians",
+"role": "Battleline"
+},
+{
+"name": "Striking Scorpions",
+"role": "Other"
+},
+{
+"name": "Support Weapons",
+"role": "Vehicle"
+},
+{
+"name": "Swooping Hawks",
+"role": "Other"
+},
+{
+"name": "The Visarch",
+"role": "Epic Hero"
+},
+{
+"name": "The Yncarne",
+"role": "Epic Hero"
+},
+{
+"name": "Troupe",
+"role": "Other"
+},
+{
+"name": "Troupe Master",
+"role": "Character"
+},
+{
+"name": "Voidweaver",
+"role": "Vehicle"
+},
+{
+"name": "Vypers",
+"role": "Vehicle"
+},
+{
+"name": "War Walkers",
+"role": "Vehicle"
+},
+{
+"name": "Warlock",
+"role": "Character"
+},
+{
+"name": "Warlock Conclave",
+"role": "Other"
+},
+{
+"name": "Warlock Skyrunner",
+"role": "Character"
+},
+{
+"name": "Warlock Skyrunner Conclave",
+"role": "Other"
+},
+{
+"name": "Warp Spiders",
+"role": "Other"
+},
+{
+"name": "Wave Serpent",
+"role": "Dedicated Transport"
+},
+{
+"name": "Webway Gate",
+"role": "Fortification"
+},
+{
+"name": "Windriders",
+"role": "Other"
+},
+{
+"name": "Wraithblades",
+"role": "Other"
+},
+{
+"name": "Wraithguard",
+"role": "Other"
+},
+{
+"name": "Wraithknight",
+"role": "Monster"
+},
+{
+"name": "Wraithlord",
+"role": "Monster"
+},
+{
+"name": "Yvraine",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Agents of the Imperium",
+"units": [
+{
+"name": "Callidus Assassin",
+"role": "Epic Hero"
+},
+{
+"name": "Culexus Assassin",
+"role": "Epic Hero"
+},
+{
+"name": "Eversor Assassin",
+"role": "Epic Hero"
+},
+{
+"name": "Exaction Squad",
+"role": "Other"
+},
+{
+"name": "Imperial Navy Breachers",
+"role": "Other"
+},
+{
+"name": "Inquisitor",
+"role": "Character"
+},
+{
+"name": "Inquisitor Coteaz",
+"role": "Epic Hero"
+},
+{
+"name": "Inquisitor Eisenhorn",
+"role": "Epic Hero"
+},
+{
+"name": "Inquisitor Greyfax",
+"role": "Epic Hero"
+},
+{
+"name": "Inquisitor Karamazov",
+"role": "Epic Hero"
+},
+{
+"name": "Inquisitorial Henchmen",
+"role": "Other"
+},
+{
+"name": "Lord Inquisitor Kyria Draxus",
+"role": "Epic Hero"
+},
+{
+"name": "Rogue Trader Entourage",
+"role": "Character"
+},
+{
+"name": "Subductor Squad",
+"role": "Other"
+},
+{
+"name": "Vigilant Squad",
+"role": "Battleline"
+},
+{
+"name": "Vindicare Assassin",
+"role": "Epic Hero"
+},
+{
+"name": "Voidsmen-At-Arms",
+"role": "Battleline"
+}
+]
+},
+{
+"faction": "Astra Militarum",
+"units": [
+{
+"name": "'Iron Hand' Straken",
+"role": "Epic Hero"
+},
+{
+"name": "Aegis Defence Line",
+"role": "Fortification"
+},
+{
+"name": "Armoured Sentinels",
+"role": "Vehicle"
+},
+{
+"name": "Attilan Rough Riders",
+"role": "Other"
+},
+{
+"name": "Baneblade",
+"role": "Vehicle"
+},
+{
+"name": "Banehammer",
+"role": "Vehicle"
+},
+{
+"name": "Banesword",
+"role": "Vehicle"
+},
+{
+"name": "Basilisk",
+"role": "Vehicle"
+},
+{
+"name": "Bullgryn Squad",
+"role": "Other"
+},
+{
+"name": "Cadian Castellan",
+"role": "Character"
+},
+{
+"name": "Cadian Command Squad",
+"role": "Character"
+},
+{
+"name": "Cadian Shock Troops",
+"role": "Battleline"
+},
+{
+"name": "Catachan Jungle Fighters",
+"role": "Battleline"
+},
+{
+"name": "Chimera",
+"role": "Dedicated Transport"
+},
+{
+"name": "Commissar",
+"role": "Character"
+},
+{
+"name": "Death Korps Of Krieg",
+"role": "Battleline"
+},
+{
+"name": "Deathstrike",
+"role": "Vehicle"
+},
+{
+"name": "Doomhammer",
+"role": "Vehicle"
+},
+{
+"name": "Field Ordnance Battery",
+"role": "Other"
+},
+{
+"name": "Gaunt's Ghosts",
+"role": "Epic Hero"
+},
+{
+"name": "Heavy Weapons Squad",
+"role": "Other"
+},
+{
+"name": "Hellhammer",
+"role": "Vehicle"
+},
+{
+"name": "Hellhound",
+"role": "Vehicle"
+},
+{
+"name": "Hydra",
+"role": "Vehicle"
+},
+{
+"name": "Infantry Squad",
+"role": "Battleline"
+},
+{
+"name": "Kasrkin",
+"role": "Other"
+},
+{
+"name": "Leman Russ Battle Tank",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Demolisher",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Eradicator",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Executioner",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Exterminator",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Punisher",
+"role": "Vehicle"
+},
+{
+"name": "Leman Russ Vanquisher",
+"role": "Vehicle"
+},
+{
+"name": "Lord Solar Leontus",
+"role": "Epic Hero"
+},
+{
+"name": "Manticore",
+"role": "Vehicle"
+},
+{
+"name": "Militarum Tempestus Command Squad",
+"role": "Character"
+},
+{
+"name": "Munitorum Servitors",
+"role": "Other"
+},
+{
+"name": "Nork Deddog",
+"role": "Epic Hero"
+},
+{
+"name": "Ogryn Bodyguard",
+"role": "Other"
+},
+{
+"name": "Ogryn Squad",
+"role": "Other"
+},
+{
+"name": "Platoon Command Squad",
+"role": "Character"
+},
+{
+"name": "Primaris Psyker",
+"role": "Character"
+},
+{
+"name": "Ratling Snipers",
+"role": "Other"
+},
+{
+"name": "Regimental Attachés",
+"role": "Other"
+},
+{
+"name": "Regimental Enginseer",
+"role": "Character"
+},
+{
+"name": "Regimental Preacher",
+"role": "Character"
+},
+{
+"name": "Rogal Dorn Battle Tank",
+"role": "Vehicle"
+},
+{
+"name": "Scout Sentinels",
+"role": "Vehicle"
+},
+{
+"name": "Sergeant Harker",
+"role": "Epic Hero"
+},
+{
+"name": "Shadowsword",
+"role": "Vehicle"
+},
+{
+"name": "Sly Marbo",
+"role": "Epic Hero"
+},
+{
+"name": "Stormlord",
+"role": "Vehicle"
+},
+{
+"name": "Stormsword",
+"role": "Vehicle"
+},
+{
+"name": "Tank Commander",
+"role": "Character"
+},
+{
+"name": "Taurox",
+"role": "Dedicated Transport"
+},
+{
+"name": "Taurox Prime",
+"role": "Dedicated Transport"
+},
+{
+"name": "Tempestus Scions",
+"role": "Other"
+},
+{
+"name": "Ursula Creed",
+"role": "Epic Hero"
+},
+{
+"name": "Valkyrie",
+"role": "Vehicle"
+},
+{
+"name": "Wyvern",
+"role": "Vehicle"
+}
+]
+},
+{
+"faction": "Chaos Knights",
+"units": [
+{
+"name": "Knight Abominant",
+"role": "Character"
+},
+{
+"name": "Knight Desecrator",
+"role": "Character"
+},
+{
+"name": "Knight Despoiler",
+"role": "Character"
+},
+{
+"name": "Knight Rampager",
+"role": "Character"
+},
+{
+"name": "Knight Tyrant",
+"role": "Character"
+},
+{
+"name": "War Dog Brigand",
+"role": "Battleline"
+},
+{
+"name": "War Dog Executioner",
+"role": "Battleline"
+},
+{
+"name": "War Dog Huntsman",
+"role": "Battleline"
+},
+{
+"name": "War Dog Karnivore",
+"role": "Battleline"
+},
+{
+"name": "War Dog Stalker",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Death Guard",
+"units": [
+{
+"name": "Biologus Putrifier",
+"role": "Character"
+},
+{
+"name": "Blightlord Terminators",
+"role": "Other"
+},
+{
+"name": "Death Guard Chaos Lord",
+"role": "Character"
+},
+{
+"name": "Death Guard Chaos Lord In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Death Guard Chaos Spawn",
+"role": "Other"
+},
+{
+"name": "Death Guard Cultists",
+"role": "Other"
+},
+{
+"name": "Death Guard Daemon Prince",
+"role": "Character"
+},
+{
+"name": "Death Guard Daemon Prince With Wings",
+"role": "Character"
+},
+{
+"name": "Death Guard Defiler",
+"role": "Vehicle"
+},
+{
+"name": "Death Guard Helbrute",
+"role": "Vehicle"
+},
+{
+"name": "Death Guard Icon Bearer",
+"role": "Character"
+},
+{
+"name": "Death Guard Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Death Guard Predator Annihilator",
+"role": "Vehicle"
+},
+{
+"name": "Death Guard Predator Destructor",
+"role": "Vehicle"
+},
+{
+"name": "Death Guard Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Death Guard Sorcerer In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Deathshroud Terminators",
+"role": "Other"
+},
+{
+"name": "Foetid Bloat-Drone",
+"role": "Vehicle"
+},
+{
+"name": "Foul Blightspawn",
+"role": "Character"
+},
+{
+"name": "Lord Of Contagion",
+"role": "Character"
+},
+{
+"name": "Lord Of Virulence",
+"role": "Character"
+},
+{
+"name": "Malignant Plaguecaster",
+"role": "Character"
+},
+{
+"name": "Miasmic Malignifier",
+"role": "Fortification"
+},
+{
+"name": "Mortarion",
+"role": "Epic Hero"
+},
+{
+"name": "Myphitic Blight-Haulers",
+"role": "Vehicle"
+},
+{
+"name": "Noxious Blightbringer",
+"role": "Character"
+},
+{
+"name": "Plague Marines",
+"role": "Battleline"
+},
+{
+"name": "Plague Surgeon",
+"role": "Character"
+},
+{
+"name": "Plagueburst Crawler",
+"role": "Vehicle"
+},
+{
+"name": "Poxwalkers",
+"role": "Other"
+},
+{
+"name": "Tallyman",
+"role": "Character"
+},
+{
+"name": "Typhus",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Drukhari",
+"units": [
+{
+"name": "Archon",
+"role": "Character"
+},
+{
+"name": "Beastmaster",
+"role": "Character"
+},
+{
+"name": "Court Of The Archon",
+"role": "Other"
+},
+{
+"name": "Cronos",
+"role": "Monster"
+},
+{
+"name": "Drazhar",
+"role": "Epic Hero"
+},
+{
+"name": "Grotesques",
+"role": "Other"
+},
+{
+"name": "Haemonculus",
+"role": "Character"
+},
+{
+"name": "Hellions",
+"role": "Other"
+},
+{
+"name": "Incubi",
+"role": "Other"
+},
+{
+"name": "Kabalite Warriors",
+"role": "Battleline"
+},
+{
+"name": "Lelith Hesperax",
+"role": "Epic Hero"
+},
+{
+"name": "Mandrakes",
+"role": "Other"
+},
+{
+"name": "Raider",
+"role": "Dedicated Transport"
+},
+{
+"name": "Ravager",
+"role": "Vehicle"
+},
+{
+"name": "Razorwing Jetfighter",
+"role": "Vehicle"
+},
+{
+"name": "Reavers",
+"role": "Other"
+},
+{
+"name": "Scourges",
+"role": "Other"
+},
+{
+"name": "Succubus",
+"role": "Character"
+},
+{
+"name": "Talos",
+"role": "Monster"
+},
+{
+"name": "Urien Rakarth",
+"role": "Epic Hero"
+},
+{
+"name": "Venom",
+"role": "Dedicated Transport"
+},
+{
+"name": "Voidraven Bomber",
+"role": "Vehicle"
+},
+{
+"name": "Wracks",
+"role": "Battleline"
+},
+{
+"name": "Wyches",
+"role": "Battleline"
+}
+]
+},
+{
+"faction": "Genestealer Cults",
+"units": [
+{
+"name": "Aberrants",
+"role": "Other"
+},
+{
+"name": "Abominant",
+"role": "Character"
+},
+{
+"name": "Achilles Ridgerunners",
+"role": "Vehicle"
+},
+{
+"name": "Acolyte Hybrids",
+"role": "Battleline"
+},
+{
+"name": "Acolyte Iconward",
+"role": "Character"
+},
+{
+"name": "Atalan Jackals",
+"role": "Other"
+},
+{
+"name": "Biophagus",
+"role": "Character"
+},
+{
+"name": "Clamavus",
+"role": "Character"
+},
+{
+"name": "Goliath Rockgrinder",
+"role": "Vehicle"
+},
+{
+"name": "Goliath Truck",
+"role": "Dedicated Transport"
+},
+{
+"name": "Hybrid Metamorphs",
+"role": "Other"
+},
+{
+"name": "Jackal Alphus",
+"role": "Character"
+},
+{
+"name": "Kelermorph",
+"role": "Character"
+},
+{
+"name": "Locus",
+"role": "Character"
+},
+{
+"name": "Magus",
+"role": "Character"
+},
+{
+"name": "Neophyte Hybrids",
+"role": "Battleline"
+},
+{
+"name": "Nexos",
+"role": "Character"
+},
+{
+"name": "Patriarch",
+"role": "Epic Hero"
+},
+{
+"name": "Primus",
+"role": "Character"
+},
+{
+"name": "Purestrain Genestealers",
+"role": "Other"
+},
+{
+"name": "Reductus Saboteur",
+"role": "Character"
+},
+{
+"name": "Sanctus",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Grey Knights",
+"units": [
+{
+"name": "Brother-Captain",
+"role": "Character"
+},
+{
+"name": "Brother-Captain Stern",
+"role": "Epic Hero"
+},
+{
+"name": "Brotherhood Champion",
+"role": "Character"
+},
+{
+"name": "Brotherhood Chaplain",
+"role": "Character"
+},
+{
+"name": "Brotherhood Librarian",
+"role": "Character"
+},
+{
+"name": "Brotherhood Techmarine",
+"role": "Character"
+},
+{
+"name": "Brotherhood Terminator Squad",
+"role": "Battleline"
+},
+{
+"name": "Castellan Crowe",
+"role": "Epic Hero"
+},
+{
+"name": "Grand Master",
+"role": "Character"
+},
+{
+"name": "Grand Master In Nemesis Dreadknight",
+"role": "Character"
+},
+{
+"name": "Grand Master Voldus",
+"role": "Epic Hero"
+},
+{
+"name": "Grey Knights Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Land Raider Crusader",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Land Raider Redeemer",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Razorback",
+"role": "Dedicated Transport"
+},
+{
+"name": "Grey Knights Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Grey Knights Stormhawk Interceptor",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Stormraven Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Stormtalon Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Grey Knights Venerable Dreadnought",
+"role": "Vehicle"
+},
+{
+"name": "Interceptor Squad",
+"role": "Other"
+},
+{
+"name": "Kaldor Draigo",
+"role": "Epic Hero"
+},
+{
+"name": "Nemesis Dreadknight",
+"role": "Vehicle"
+},
+{
+"name": "Paladin Squad",
+"role": "Other"
+},
+{
+"name": "Purgation Squad",
+"role": "Other"
+},
+{
+"name": "Purifier Squad",
+"role": "Other"
+},
+{
+"name": "Servitors",
+"role": "Other"
+},
+{
+"name": "Strike Squad",
+"role": "Battleline"
+}
+]
+},
+{
+"faction": "Heretic Astartes",
+"units": [
+{
+"name": "Abaddon The Despoiler",
+"role": "Epic Hero"
+},
+{
+"name": "Accursed Cultists",
+"role": "Other"
+},
+{
+"name": "Chaos Bikers",
+"role": "Other"
+},
+{
+"name": "Chaos Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Chaos Lord",
+"role": "Character"
+},
+{
+"name": "Chaos Lord In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Chaos Predator Annihilator",
+"role": "Vehicle"
+},
+{
+"name": "Chaos Predator Destructor",
+"role": "Vehicle"
+},
+{
+"name": "Chaos Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Chaos Spawn",
+"role": "Other"
+},
+{
+"name": "Chaos Terminator Squad",
+"role": "Other"
+},
+{
+"name": "Chaos Vindicator",
+"role": "Vehicle"
+},
+{
+"name": "Chosen",
+"role": "Other"
+},
+{
+"name": "Cultist Mob",
+"role": "Battleline"
+},
+{
+"name": "Cypher",
+"role": "Epic Hero"
+},
+{
+"name": "Dark Apostle",
+"role": "Character"
+},
+{
+"name": "Dark Commune",
+"role": "Character"
+},
+{
+"name": "Defiler",
+"role": "Vehicle"
+},
+{
+"name": "Exalted Champion",
+"role": "Character"
+},
+{
+"name": "Fabius Bile",
+"role": "Epic Hero"
+},
+{
+"name": "Fellgor Beastmen",
+"role": "Other"
+},
+{
+"name": "Forgefiend",
+"role": "Vehicle"
+},
+{
+"name": "Haarken Worldclaimer",
+"role": "Epic Hero"
+},
+{
+"name": "Havocs",
+"role": "Other"
+},
+{
+"name": "Helbrute",
+"role": "Vehicle"
+},
+{
+"name": "Heldrake",
+"role": "Vehicle"
+},
+{
+"name": "Heretic Astartes Daemon Prince",
+"role": "Character"
+},
+{
+"name": "Heretic Astartes Daemon Prince With Wings",
+"role": "Character"
+},
+{
+"name": "Huron Blackheart",
+"role": "Epic Hero"
+},
+{
+"name": "Khorne Lord Of Skulls",
+"role": "Vehicle"
+},
+{
+"name": "Legionaries",
+"role": "Battleline"
+},
+{
+"name": "Lord Discordant On Helstalker",
+"role": "Character"
+},
+{
+"name": "Lucius The Eternal",
+"role": "Epic Hero"
+},
+{
+"name": "Master Of Executions",
+"role": "Character"
+},
+{
+"name": "Master Of Possession",
+"role": "Character"
+},
+{
+"name": "Maulerfiend",
+"role": "Vehicle"
+},
+{
+"name": "Noctilith Crown",
+"role": "Fortification"
+},
+{
+"name": "Noise Marines",
+"role": "Other"
+},
+{
+"name": "Obliterators",
+"role": "Other"
+},
+{
+"name": "Possessed",
+"role": "Other"
+},
+{
+"name": "Raptors",
+"role": "Other"
+},
+{
+"name": "Sorcerer",
+"role": "Character"
+},
+{
+"name": "Sorcerer In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Traitor Enforcer",
+"role": "Character"
+},
+{
+"name": "Traitor Guardsmen Squad",
+"role": "Other"
+},
+{
+"name": "Vashtorr The Arkifane",
+"role": "Epic Hero"
+},
+{
+"name": "Venomcrawler",
+"role": "Vehicle"
+},
+{
+"name": "Warp Talons",
+"role": "Other"
+},
+{
+"name": "Warpsmith",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Imperial Knights",
+"units": [
+{
+"name": "Armiger Helverin",
+"role": "Battleline"
+},
+{
+"name": "Armiger Warglaive",
+"role": "Battleline"
+},
+{
+"name": "Canis Rex",
+"role": "Epic Hero"
+},
+{
+"name": "Knight Castellan",
+"role": "Character"
+},
+{
+"name": "Knight Crusader",
+"role": "Character"
+},
+{
+"name": "Knight Errant",
+"role": "Character"
+},
+{
+"name": "Knight Gallant",
+"role": "Character"
+},
+{
+"name": "Knight Paladin",
+"role": "Character"
+},
+{
+"name": "Knight Preceptor",
+"role": "Character"
+},
+{
+"name": "Knight Valiant",
+"role": "Character"
+},
+{
+"name": "Knight Warden",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Leagues of Votann",
+"units": [
+{
+"name": "Brôkhyr Iron-Master",
+"role": "Character"
+},
+{
+"name": "Brôkhyr Thunderkyn",
+"role": "Other"
+},
+{
+"name": "Cthonian Beserks",
+"role": "Other"
+},
+{
+"name": "Einhyr Champion",
+"role": "Character"
+},
+{
+"name": "Einhyr Hearthguard",
+"role": "Other"
+},
+{
+"name": "Grimnyr",
+"role": "Character"
+},
+{
+"name": "Hearthkyn Warriors",
+"role": "Battleline"
+},
+{
+"name": "Hekaton Land Fortress",
+"role": "Vehicle"
+},
+{
+"name": "Hernkyn Pioneers",
+"role": "Other"
+},
+{
+"name": "Kâhl",
+"role": "Character"
+},
+{
+"name": "Sagitaur",
+"role": "Dedicated Transport"
+},
+{
+"name": "Ûthar The Destined",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Legiones Daemonica",
+"units": [
+{
+"name": "Be'Lakor",
+"role": "Epic Hero"
+},
+{
+"name": "Beasts Of Nurgle",
+"role": "Other"
+},
+{
+"name": "Bloodcrushers",
+"role": "Other"
+},
+{
+"name": "Bloodletters",
+"role": "Battleline"
+},
+{
+"name": "Bloodmaster",
+"role": "Character"
+},
+{
+"name": "Bloodthirster",
+"role": "Character"
+},
+{
+"name": "Blue Horrors",
+"role": "Battleline"
+},
+{
+"name": "Burning Chariot",
+"role": "Other"
+},
+{
+"name": "Changecaster",
+"role": "Character"
+},
+{
+"name": "Contorted Epitome",
+"role": "Character"
+},
+{
+"name": "Daemon Prince Of Chaos",
+"role": "Character"
+},
+{
+"name": "Daemon Prince Of Chaos With Wings",
+"role": "Character"
+},
+{
+"name": "Daemonettes",
+"role": "Battleline"
+},
+{
+"name": "Epidemius",
+"role": "Character"
+},
+{
+"name": "Exalted Flamer",
+"role": "Character"
+},
+{
+"name": "Exalted Seeker Chariot",
+"role": "Other"
+},
+{
+"name": "Fateskimmer",
+"role": "Character"
+},
+{
+"name": "Feculent Gnarlmaw",
+"role": "Fortification"
+},
+{
+"name": "Fiends",
+"role": "Other"
+},
+{
+"name": "Flamers",
+"role": "Other"
+},
+{
+"name": "Flesh Hounds",
+"role": "Other"
+},
+{
+"name": "Fluxmaster",
+"role": "Character"
+},
+{
+"name": "Great Unclean One",
+"role": "Character"
+},
+{
+"name": "Hellflayer",
+"role": "Other"
+},
+{
+"name": "Horticulous Slimux",
+"role": "Epic Hero"
+},
+{
+"name": "Infernal Enrapturess",
+"role": "Character"
+},
+{
+"name": "Kairos Fateweaver",
+"role": "Epic Hero"
+},
+{
+"name": "Karanak",
+"role": "Epic Hero"
+},
+{
+"name": "Keeper Of Secrets",
+"role": "Character"
+},
+{
+"name": "Lord Of Change",
+"role": "Character"
+},
+{
+"name": "Nurglings",
+"role": "Battleline"
+},
+{
+"name": "Pink Horrors",
+"role": "Battleline"
+},
+{
+"name": "Plague Drones",
+"role": "Other"
+},
+{
+"name": "Plaguebearers",
+"role": "Battleline"
+},
+{
+"name": "Poxbringer",
+"role": "Character"
+},
+{
+"name": "Rendmaster On Blood Throne",
+"role": "Character"
+},
+{
+"name": "Rotigus",
+"role": "Epic Hero"
+},
+{
+"name": "Screamers",
+"role": "Other"
+},
+{
+"name": "Seeker Chariot",
+"role": "Other"
+},
+{
+"name": "Seekers",
+"role": "Other"
+},
+{
+"name": "Shalaxi Helbane",
+"role": "Epic Hero"
+},
+{
+"name": "Skarbrand",
+"role": "Epic Hero"
+},
+{
+"name": "Skull Altar",
+"role": "Fortification"
+},
+{
+"name": "Skull Cannon",
+"role": "Other"
+},
+{
+"name": "Skullmaster",
+"role": "Character"
+},
+{
+"name": "Skulltaker",
+"role": "Epic Hero"
+},
+{
+"name": "Sloppity Bilepiper",
+"role": "Character"
+},
+{
+"name": "Soul Grinder",
+"role": "Vehicle"
+},
+{
+"name": "Spoilpox Scrivener",
+"role": "Character"
+},
+{
+"name": "Syll'Esske",
+"role": "Epic Hero"
+},
+{
+"name": "The Blue Scribes",
+"role": "Epic Hero"
+},
+{
+"name": "The Changeling",
+"role": "Epic Hero"
+},
+{
+"name": "The Masque Of Slaanesh",
+"role": "Epic Hero"
+},
+{
+"name": "Tormentbringer On Exalted Seeker Chariot",
+"role": "Character"
+},
+{
+"name": "Tranceweaver",
+"role": "Character"
+}
+]
+},
+{
+"faction": "Necrons",
+"units": [
+{
+"name": "Annihilation Barge",
+"role": "Vehicle"
+},
+{
+"name": "Anrakyr The Traveller",
+"role": "Epic Hero"
+},
+{
+"name": "C'Tan Shard Of The Deceiver",
+"role": "Epic Hero"
+},
+{
+"name": "C'Tan Shard Of The Nightbringer",
+"role": "Epic Hero"
+},
+{
+"name": "C'Tan Shard Of The Void Dragon",
+"role": "Epic Hero"
+},
+{
+"name": "Canoptek Doomstalker",
+"role": "Vehicle"
+},
+{
+"name": "Canoptek Reanimator",
+"role": "Vehicle"
+},
+{
+"name": "Canoptek Scarab Swarms",
+"role": "Other"
+},
+{
+"name": "Canoptek Spyders",
+"role": "Vehicle"
+},
+{
+"name": "Canoptek Wraiths",
+"role": "Other"
+},
+{
+"name": "Catacomb Command Barge",
+"role": "Character"
+},
+{
+"name": "Chronomancer",
+"role": "Character"
+},
+{
+"name": "Convergence Of Dominion",
+"role": "Vehicle"
+},
+{
+"name": "Cryptothralls",
+"role": "Other"
+},
+{
+"name": "Deathmarks",
+"role": "Other"
+},
+{
+"name": "Doom Scythe",
+"role": "Vehicle"
+},
+{
+"name": "Doomsday Ark",
+"role": "Vehicle"
+},
+{
+"name": "Flayed Ones",
+"role": "Other"
+},
+{
+"name": "Ghost Ark",
+"role": "Dedicated Transport"
+},
+{
+"name": "Hexmark Destroyer",
+"role": "Character"
+},
+{
+"name": "Illuminor Szeras",
+"role": "Epic Hero"
+},
+{
+"name": "Immortals",
+"role": "Battleline"
+},
+{
+"name": "Imotekh The Stormlord",
+"role": "Epic Hero"
+},
+{
+"name": "Lokhust Destroyers",
+"role": "Other"
+},
+{
+"name": "Lokhust Heavy Destroyers",
+"role": "Other"
+},
+{
+"name": "Lokhust Lord",
+"role": "Character"
+},
+{
+"name": "Lord",
+"role": "Character"
+},
+{
+"name": "Lychguard",
+"role": "Other"
+},
+{
+"name": "Monolith",
+"role": "Vehicle"
+},
+{
+"name": "Necron Warriors",
+"role": "Battleline"
+},
+{
+"name": "Nemesor Zahndrekh",
+"role": "Epic Hero"
+},
+{
+"name": "Night Scythe",
+"role": "Vehicle"
+},
+{
+"name": "Obelisk",
+"role": "Vehicle"
+},
+{
+"name": "Ophydian Destroyers",
+"role": "Other"
+},
+{
+"name": "Orikan The Diviner",
+"role": "Epic Hero"
+},
+{
+"name": "Overlord",
+"role": "Character"
+},
+{
+"name": "Plasmancer",
+"role": "Character"
+},
+{
+"name": "Psychomancer",
+"role": "Character"
+},
+{
+"name": "Royal Warden",
+"role": "Character"
+},
+{
+"name": "Skorpekh Destroyers",
+"role": "Other"
+},
+{
+"name": "Skorpekh Lord",
+"role": "Character"
+},
+{
+"name": "Technomancer",
+"role": "Character"
+},
+{
+"name": "Tesseract Vault",
+"role": "Vehicle"
+},
+{
+"name": "The Silent King",
+"role": "Epic Hero"
+},
+{
+"name": "Tomb Blades",
+"role": "Other"
+},
+{
+"name": "Transcendent C'Tan",
+"role": "Character"
+},
+{
+"name": "Trazyn The Infinite",
+"role": "Epic Hero"
+},
+{
+"name": "Triarch Praetorians",
+"role": "Other"
+},
+{
+"name": "Triarch Stalker",
+"role": "Vehicle"
+},
+{
+"name": "Vargard Obyron",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "Orks",
+"units": [
+{
+"name": "Battlewagon",
+"role": "Vehicle"
+},
+{
+"name": "Beast Snagga Boyz",
+"role": "Battleline"
+},
+{
+"name": "Beastboss",
+"role": "Character"
+},
+{
+"name": "Beastboss On Squigosaur",
+"role": "Character"
+},
+{
+"name": "Big Mek Dakkarig",
+"role": "Character"
+},
+{
+"name": "Big Mek In Mega Armour",
+"role": "Character"
+},
+{
+"name": "Big Mek With Kustom Force Field",
+"role": "Character"
+},
+{
+"name": "Big Mek With Shokk Attack Gun",
+"role": "Character"
+},
+{
+"name": "Big'Ed Bossbunka",
+"role": "Vehicle"
+},
+{
+"name": "Blitza-Bommer",
+"role": "Vehicle"
+},
+{
+"name": "Boomdakka Snazzwagon",
+"role": "Vehicle"
+},
+{
+"name": "Boss Snikrot",
+"role": "Epic Hero"
+},
+{
+"name": "Boss Zagstruk",
+"role": "Epic Hero"
+},
+{
+"name": "Boyz",
+"role": "Battleline"
+},
+{
+"name": "Burna Boyz",
+"role": "Other"
+},
+{
+"name": "Burna-Bommer",
+"role": "Vehicle"
+},
+{
+"name": "Dakkajet",
+"role": "Vehicle"
+},
+{
+"name": "Deff Dread",
+"role": "Vehicle"
+},
+{
+"name": "Deffkilla Wartrike",
+"role": "Character"
+},
+{
+"name": "Deffkoptas",
+"role": "Vehicle"
+},
+{
+"name": "Flash Gitz",
+"role": "Other"
+},
+{
+"name": "Ghazghkull Thraka",
+"role": "Epic Hero"
+},
+{
+"name": "Gorkanaut",
+"role": "Vehicle"
+},
+{
+"name": "Gretchin",
+"role": "Other"
+},
+{
+"name": "Hunta Rig",
+"role": "Vehicle"
+},
+{
+"name": "Kaptin Badrukk",
+"role": "Epic Hero"
+},
+{
+"name": "Kill Rig",
+"role": "Vehicle"
+},
+{
+"name": "Killa Kans",
+"role": "Vehicle"
+},
+{
+"name": "Kommandos",
+"role": "Other"
+},
+{
+"name": "Kustom Boosta-Blasta",
+"role": "Vehicle"
+},
+{
+"name": "Lootas",
+"role": "Other"
+},
+{
+"name": "Mad Dok Grotsnik",
+"role": "Epic Hero"
+},
+{
+"name": "Meganobz",
+"role": "Other"
+},
+{
+"name": "Megatrakk Scrapjet",
+"role": "Vehicle"
+},
+{
+"name": "Mek",
+"role": "Character"
+},
+{
+"name": "Mek Gunz",
+"role": "Vehicle"
+},
+{
+"name": "Mekboy Workshop",
+"role": "Vehicle"
+},
+{
+"name": "Morkanaut",
+"role": "Vehicle"
+},
+{
+"name": "Mozrog Skragbad",
+"role": "Epic Hero"
+},
+{
+"name": "Nob On Smasha Squig",
+"role": "Character"
+},
+{
+"name": "Nob With Waaagh! Banner",
+"role": "Character"
+},
+{
+"name": "Nobz",
+"role": "Other"
+},
+{
+"name": "Painboss",
+"role": "Character"
+},
+{
+"name": "Painboy",
+"role": "Character"
+},
+{
+"name": "Rukkatrukk Squigbuggy",
+"role": "Vehicle"
+},
+{
+"name": "Shokkjump Dragsta",
+"role": "Vehicle"
+},
+{
+"name": "Squighog Boyz",
+"role": "Other"
+},
+{
+"name": "Stompa",
+"role": "Vehicle"
+},
+{
+"name": "Stormboyz",
+"role": "Other"
+},
+{
+"name": "Tankbustas",
+"role": "Other"
+},
+{
+"name": "Trukk",
+"role": "Dedicated Transport"
+},
+{
+"name": "Warbikers",
+"role": "Other"
+},
+{
+"name": "Warboss",
+"role": "Character"
+},
+{
+"name": "Warboss In Mega Armour",
+"role": "Character"
+},
+{
+"name": "Wazbom Blastajet",
+"role": "Vehicle"
+},
+{
+"name": "Weirdboy",
+"role": "Character"
+},
+{
+"name": "Wurrboy",
+"role": "Character"
+},
+{
+"name": "Zodgrod Wortsnagga",
+"role": "Epic Hero"
+}
+]
+},
+{
+"faction": "T'au Empire",
+"units": [
+{
+"name": "Aun'shi",
+"role": "Epic Hero"
+},
+{
+"name": "Aun'Va",
+"role": "Epic Hero"
+},
+{
+"name": "Breacher Team",
+"role": "Battleline"
+},
+{
+"name": "Broadside Battlesuits",
+"role": "Vehicle"
+},
+{
+"name": "Cadre Fireblade",
+"role": "Character"
+},
+{
+"name": "Commander Farsight",
+"role": "Epic Hero"
+},
+{
+"name": "Commander In Coldstar Battlesuit",
+"role": "Character"
+},
+{
+"name": "Commander In Crisis Battlesuit",
+"role": "Character"
+},
+{
+"name": "Commander In Enforcer Battlesuit",
+"role": "Character"
+},
+{
+"name": "Commander Shadowsun",
+"role": "Epic Hero"
+},
+{
+"name": "Crisis Battlesuits",
+"role": "Vehicle"
+},
+{
+"name": "Darkstrider",
+"role": "Epic Hero"
+},
+{
+"name": "Devilfish",
+"role": "Dedicated Transport"
+},
+{
+"name": "Ethereal",
+"role": "Character"
+},
+{
+"name": "Firesight Team",
+"role": "Character"
+},
+{
+"name": "Ghostkeel Battlesuit",
+"role": "Vehicle"
+},
+{
+"name": "Hammerhead Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Kroot Carnivores",
+"role": "Other"
+},
+{
+"name": "Kroot Farstalkers",
+"role": "Other"
+},
+{
+"name": "Kroot Hounds",
+"role": "Other"
+},
+{
+"name": "Kroot Shaper",
+"role": "Character"
+},
+{
+"name": "Krootox Riders",
+"role": "Other"
+},
+{
+"name": "Longstrike",
+"role": "Epic Hero"
+},
+{
+"name": "Pathfinder Team",
+"role": "Other"
+},
+{
+"name": "Piranha",
+"role": "Vehicle"
+},
+{
+"name": "Razorshark Strike Fighter",
+"role": "Vehicle"
+},
+{
+"name": "Riptide Battlesuit",
+"role": "Vehicle"
+},
+{
+"name": "Sky Ray Gunship",
+"role": "Vehicle"
+},
+{
+"name": "Stealth Battlesuits",
+"role": "Other"
+},
+{
+"name": "Stormsurge",
+"role": "Vehicle"
+},
+{
+"name": "Strike Team",
+"role": "Battleline"
+},
+{
+"name": "Sun Shark Bomber",
+"role": "Vehicle"
+},
+{
+"name": "Tactical Drones",
+"role": "Other"
+},
+{
+"name": "Tidewall Droneport",
+"role": "Vehicle"
+},
+{
+"name": "Tidewall Gunrig",
+"role": "Vehicle"
+},
+{
+"name": "Tidewall Shieldline",
+"role": "Vehicle"
+},
+{
+"name": "Vespid Stingwings",
+"role": "Other"
+}
+]
+},
+{
+"faction": "Thousand Sons",
+"units": [
+{
+"name": "Ahriman",
+"role": "Epic Hero"
+},
+{
+"name": "Ahriman On Disc Of Tzeentch",
+"role": "Epic Hero"
+},
+{
+"name": "Exalted Sorcerer",
+"role": "Character"
+},
+{
+"name": "Exalted Sorcerer On Disc Of Tzeentch",
+"role": "Character"
+},
+{
+"name": "Infernal Master",
+"role": "Character"
+},
+{
+"name": "Magnus The Red",
+"role": "Epic Hero"
+},
+{
+"name": "Mutalith Vortex Beast",
+"role": "Monster"
+},
+{
+"name": "Rubric Marines",
+"role": "Battleline"
+},
+{
+"name": "Scarab Occult Terminators",
+"role": "Other"
+},
+{
+"name": "Thousand Sons Chaos Spawn",
+"role": "Other"
+},
+{
+"name": "Thousand Sons Cultists",
+"role": "Other"
+},
+{
+"name": "Thousand Sons Daemon Prince",
+"role": "Character"
+},
+{
+"name": "Thousand Sons Daemon Prince With Wings",
+"role": "Character"
+},
+{
+"name": "Thousand Sons Defiler",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Forgefiend",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Helbrute",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Heldrake",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Maulerfiend",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Predator Annihilator",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Predator Destructor",
+"role": "Vehicle"
+},
+{
+"name": "Thousand Sons Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "Thousand Sons Sorcerer",
+"role": "Character"
+},
+{
+"name": "Thousand Sons Sorcerer In Terminator Armour",
+"role": "Character"
+},
+{
+"name": "Thousand Sons Vindicator",
+"role": "Vehicle"
+},
+{
+"name": "Tzaangor Enlightened",
+"role": "Other"
+},
+{
+"name": "Tzaangor Shaman",
+"role": "Character"
+},
+{
+"name": "Tzaangors",
+"role": "Battleline"
+}
+]
+},
+{
+"faction": "Tyranids",
+"units": [
+{
+"name": "Barbgaunts",
+"role": "Other"
+},
+{
+"name": "Biovores",
+"role": "Other"
+},
+{
+"name": "Broodlord",
+"role": "Character"
+},
+{
+"name": "Carnifexes",
+"role": "Monster"
+},
+{
+"name": "Deathleaper",
+"role": "Epic Hero"
+},
+{
+"name": "Exocrine",
+"role": "Monster"
+},
+{
+"name": "Gargoyles",
+"role": "Battleline"
+},
+{
+"name": "Genestealers",
+"role": "Other"
+},
+{
+"name": "Harpy",
+"role": "Monster"
+},
+{
+"name": "Haruspex",
+"role": "Monster"
+},
+{
+"name": "Hive Crone",
+"role": "Monster"
+},
+{
+"name": "Hive Guard",
+"role": "Other"
+},
+{
+"name": "Hive Tyrant",
+"role": "Character"
+},
+{
+"name": "Hormagaunts",
+"role": "Battleline"
+},
+{
+"name": "Lictor",
+"role": "Other"
+},
+{
+"name": "Maleceptor",
+"role": "Monster"
+},
+{
+"name": "Mawloc",
+"role": "Monster"
+},
+{
+"name": "Mucolid Spores",
+"role": "Other"
+},
+{
+"name": "Neurogaunts",
+"role": "Other"
+},
+{
+"name": "Neurotyrant",
+"role": "Character"
+},
+{
+"name": "Old One Eye",
+"role": "Epic Hero"
+},
+{
+"name": "Parasite Of Mortrex",
+"role": "Character"
+},
+{
+"name": "Psychophage",
+"role": "Monster"
+},
+{
+"name": "Pyrovores",
+"role": "Other"
+},
+{
+"name": "Raveners",
+"role": "Other"
+},
+{
+"name": "Ripper Swarms",
+"role": "Other"
+},
+{
+"name": "Screamer-Killer",
+"role": "Monster"
+},
+{
+"name": "Spore Mines",
+"role": "Other"
+},
+{
+"name": "Sporocyst",
+"role": "Monster"
+},
+{
+"name": "Termagants",
+"role": "Battleline"
+},
+{
+"name": "Tervigon",
+"role": "Character"
+},
+{
+"name": "The Swarmlord",
+"role": "Epic Hero"
+},
+{
+"name": "Toxicrene",
+"role": "Monster"
+},
+{
+"name": "Trygon",
+"role": "Monster"
+},
+{
+"name": "Tyranid Warriors With Melee Bio-Weapons",
+"role": "Other"
+},
+{
+"name": "Tyranid Warriors With Ranged Bio-Weapons",
+"role": "Other"
+},
+{
+"name": "Tyrannocyte",
+"role": "Dedicated Transport"
+},
+{
+"name": "Tyrannofex",
+"role": "Monster"
+},
+{
+"name": "Tyrant Guard",
+"role": "Other"
+},
+{
+"name": "Venomthropes",
+"role": "Other"
+},
+{
+"name": "Von Ryan's Leapers",
+"role": "Other"
+},
+{
+"name": "Winged Hive Tyrant",
+"role": "Character"
+},
+{
+"name": "Winged Tyranid Prime",
+"role": "Character"
+},
+{
+"name": "Zoanthropes",
+"role": "Other"
+}
+]
+},
+{
+"faction": "World Eaters",
+"units": [
+{
+"name": "Angron",
+"role": "Epic Hero"
+},
+{
+"name": "Eightbound",
+"role": "Other"
+},
+{
+"name": "Exalted Eightbound",
+"role": "Other"
+},
+{
+"name": "Jakhals",
+"role": "Battleline"
+},
+{
+"name": "Khorne Berzerkers",
+"role": "Battleline"
+},
+{
+"name": "Khorne Lord Of Skulls",
+"role": "Vehicle"
+},
+{
+"name": "Khârn The Betrayer",
+"role": "Epic Hero"
+},
+{
+"name": "Lord Invocatus",
+"role": "Epic Hero"
+},
+{
+"name": "World Eaters Chaos Spawn",
+"role": "Other"
+},
+{
+"name": "World Eaters Daemon Prince",
+"role": "Character"
+},
+{
+"name": "World Eaters Daemon Prince With Wings",
+"role": "Character"
+},
+{
+"name": "World Eaters Defiler",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Forgefiend",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Helbrute",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Heldrake",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Land Raider",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Lord On Juggernaut",
+"role": "Character"
+},
+{
+"name": "World Eaters Master Of Executions",
+"role": "Character"
+},
+{
+"name": "World Eaters Maulerfiend",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Predator Annihilator",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Predator Destructor",
+"role": "Vehicle"
+},
+{
+"name": "World Eaters Rhino",
+"role": "Dedicated Transport"
+},
+{
+"name": "World Eaters Terminator Squad",
+"role": "Other"
+}
+]
+}
+]
