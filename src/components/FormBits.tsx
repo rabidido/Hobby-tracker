@@ -86,29 +86,22 @@ export function BasedToggle({
   );
 }
 
-export function ArmyField({
+export function ProjectSelect({
   value,
+  projects,
   onChange,
-  suggestions,
 }: {
   value: string;
-  onChange: (v: string) => void;
-  suggestions: string[];
+  projects: { id: string; name: string }[];
+  onChange: (id: string) => void;
 }) {
   return (
-    <>
-      <input
-        className="input"
-        list="army-suggestions"
-        value={value}
-        placeholder="e.g. My Ultramarines"
-        onChange={(e) => onChange(e.target.value)}
-      />
-      <datalist id="army-suggestions">
-        {suggestions.map((s) => (
-          <option value={s} key={s} />
-        ))}
-      </datalist>
-    </>
+    <select className="input" value={value} onChange={(e) => onChange(e.target.value)}>
+      {projects.map((p) => (
+        <option value={p.id} key={p.id}>
+          {p.name}
+        </option>
+      ))}
+    </select>
   );
 }

@@ -1,23 +1,10 @@
 import { useMemo } from 'react';
 import type { OwnedUnit } from '../types';
 import { STATUSES } from '../data/statuses';
+import { computeProgress } from '../lib/progress';
 
 export function ProgressSummary({ units }: { units: OwnedUnit[] }) {
-  const stats = useMemo(() => {
-    const byStatus = new Map<string, number>();
-    let models = 0;
-    let weighted = 0;
-    for (const u of units) {
-      const q = Math.max(1, u.quantity);
-      models += q;
-      byStatus.set(u.status, (byStatus.get(u.status) ?? 0) + q);
-    }
-    for (const s of STATUSES) weighted += (byStatus.get(s.id) ?? 0) * s.progress;
-    const pct = models ? Math.round((weighted / models) * 100) : 0;
-    return { byStatus, models, pct };
-  }, [units]);
-
-  const { byStatus, models, pct } = stats;
+  const { byStatus, models, pct } = useMemo(() => computeProgress(units), [units]);
 
   return (
     <section className="summary" aria-label="Collection progress">

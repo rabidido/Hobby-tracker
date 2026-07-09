@@ -28,15 +28,26 @@ export interface RosterFaction {
   units: RosterUnit[];
 }
 
-/** A unit the user owns and is tracking. */
+/** An army / project the user is collecting. Top-level grouping. */
+export interface Project {
+  id: string;
+  name: string;
+  /** Primary faction — used to filter the datasheet picker by default. */
+  faction: string;
+  createdAt: number;
+  updatedAt: number;
+}
+
+/** A unit the user owns and is tracking, belonging to one project/army. */
 export interface OwnedUnit {
   id: string;
   name: string;
-  /** Source faction from the roster (or 'Custom'). */
+  /** Source faction from the roster (or 'Custom'). May differ from the
+   *  project's faction for allied units (e.g. Knights in an Ad Mech army). */
   faction: string;
   role: string;
-  /** User-defined army / collection grouping. Defaults to the faction. */
-  army: string;
+  /** The army/project this unit belongs to. */
+  projectId: string;
   status: StatusId;
   /** Independent of the workflow — a mini can be based at any stage. */
   based: boolean;

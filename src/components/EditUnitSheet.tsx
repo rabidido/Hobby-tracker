@@ -1,20 +1,20 @@
 import { useState } from 'react';
-import type { OwnedUnit, StatusId } from '../types';
+import type { OwnedUnit, Project, StatusId } from '../types';
 import { Sheet } from './Sheet';
-import { ArmyField, BasedToggle, QtyStepper, StatusPicker } from './FormBits';
+import { BasedToggle, ProjectSelect, QtyStepper, StatusPicker } from './FormBits';
 import { IconTrash } from './icons';
 
 interface Props {
   unit: OwnedUnit;
-  armies: string[];
+  projects: Project[];
   onClose: () => void;
   onSave: (id: string, patch: Partial<OwnedUnit>) => void;
   onDelete: (id: string) => void;
 }
 
-export function EditUnitSheet({ unit, armies, onClose, onSave, onDelete }: Props) {
+export function EditUnitSheet({ unit, projects, onClose, onSave, onDelete }: Props) {
   const [name, setName] = useState(unit.name);
-  const [army, setArmy] = useState(unit.army);
+  const [projectId, setProjectId] = useState(unit.projectId);
   const [quantity, setQuantity] = useState(unit.quantity);
   const [status, setStatus] = useState<StatusId>(unit.status);
   const [based, setBased] = useState(unit.based);
@@ -24,7 +24,7 @@ export function EditUnitSheet({ unit, armies, onClose, onSave, onDelete }: Props
   function save() {
     onSave(unit.id, {
       name: name.trim() || unit.name,
-      army: army.trim() || unit.faction,
+      projectId,
       quantity: Math.max(1, quantity),
       status,
       based,
@@ -55,7 +55,12 @@ export function EditUnitSheet({ unit, armies, onClose, onSave, onDelete }: Props
           </>
         ) : (
           <>
-            <button className="btn btn--danger" style={{ flex: '0 0 auto' }} onClick={() => setConfirmDelete(true)} aria-label="Delete unit">
+            <button
+              className="btn btn--danger"
+              style={{ flex: '0 0 auto' }}
+              onClick={() => setConfirmDelete(true)}
+              aria-label="Delete unit"
+            >
               <IconTrash style={{ width: 18, height: 18 }} />
             </button>
             <button className="btn btn--primary" onClick={save}>
@@ -74,10 +79,12 @@ export function EditUnitSheet({ unit, armies, onClose, onSave, onDelete }: Props
         </p>
       </div>
 
-      <div className="field">
-        <label>Army / collection</label>
-        <ArmyField value={army} onChange={setArmy} suggestions={[...new Set([...armies, unit.faction])]} />
-      </div>
+      {projects.length > 1 && (
+        <div className="field">
+          <label>Army</label>
+          <ProjectSelect value={projectId} projects={projects} onChange={setProjectId} />
+        </div>
+      )}
 
       <div className="field">
         <label>Models in this entry</label>

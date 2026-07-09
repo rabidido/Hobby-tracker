@@ -754,6 +754,171 @@ textarea.input {
   color: var(--accent);
 }
 
+/* ---------- Section head (home) ---------- */
+.sectionhead {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 20px 2px 12px;
+}
+.sectionhead__title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.sectionhead__meta {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--faint);
+}
+
+/* ---------- Project (army) cards ---------- */
+.projectlist {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.projectcard {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 15px 16px 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.15s, transform 0.1s;
+}
+.projectcard:active {
+  transform: scale(0.99);
+  background: var(--surface-2);
+}
+.projectcard__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.projectcard__name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.06rem;
+  letter-spacing: 0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.projectcard__meta {
+  margin-top: 3px;
+  font-size: 0.76rem;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.projectcard__pct {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--accent);
+  flex: none;
+}
+.projectcard__pct small {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.projectcard__go {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  color: var(--faint);
+  opacity: 0.5;
+}
+.projectcard__go svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---------- Project detail header ---------- */
+.topbar--project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.backbtn {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+.backbtn svg {
+  width: 20px;
+  height: 20px;
+}
+.proj__title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.12rem;
+  letter-spacing: 0.02em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.proj__sub {
+  margin: 1px 0 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+/* ---------- Segmented toggle (datasheet faction filter) ---------- */
+.segrow {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.seg {
+  flex: 1;
+  padding: 9px 8px;
+  border-radius: 9px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.seg.on {
+  background: var(--surface-3);
+  color: var(--text);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.linkbtn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 0;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
