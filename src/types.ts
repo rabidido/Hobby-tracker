@@ -25,6 +25,8 @@ export interface StatusDef {
 export interface RosterUnit {
   name: string;
   role: string;
+  /** Default number of models on the datasheet (starting size). */
+  models: number;
 }
 
 export interface RosterFaction {

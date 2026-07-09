@@ -46,9 +46,10 @@ Unit names live in [`src/data/units.json`](src/data/units.json) as a simple
 The roster is extracted from the community-maintained
 [BSData 11th-edition catalogues](https://github.com/BSData/wh40k-11e) — the
 open-source army-builder data project (not derived from Wahapedia). Legends
-datasheets are included and tagged `[Legends]`. To refresh, run
-[`scripts/build_roster.py`](scripts/build_roster.py) and copy the output over
-`units.json` — nothing else depends on the source.
+datasheets are included and tagged `[Legends]`, and each entry carries its
+default model count. To refresh, run
+[`scripts/build_roster.mjs`](scripts/build_roster.mjs) (`node scripts/build_roster.mjs`)
+and copy the output over `units.json` — nothing else depends on the source.
 
 *This is an unofficial fan project. Warhammer 40,000 and all associated names are
 trademarks of Games Workshop. No GW rules content or points values are included —

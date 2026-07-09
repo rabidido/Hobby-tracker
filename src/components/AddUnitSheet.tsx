@@ -46,10 +46,16 @@ export function AddUnitSheet({ project, onClose, onAdd }: Props) {
     return [...starts, ...contains].slice(0, MAX_RESULTS);
   }, [query, pool]);
 
+  function choose(u: FlatRosterUnit) {
+    setPicked(u);
+    setQuantity(Math.max(1, u.models)); // default to the datasheet's model count
+  }
+
   function chooseCustom() {
     const name = query.trim();
     if (!name) return;
-    setPicked({ name, role: 'Other', faction: factionKnown ? project.faction : 'Custom' });
+    setPicked({ name, role: 'Other', faction: factionKnown ? project.faction : 'Custom', models: 1 });
+    setQuantity(1);
   }
 
   function submit() {
@@ -105,7 +111,7 @@ export function AddUnitSheet({ project, onClose, onAdd }: Props) {
             <button
               className="pickitem"
               key={`${u.faction}:${u.name}`}
-              onClick={() => setPicked(u)}
+              onClick={() => choose(u)}
             >
               <span>
                 <div className="pickitem__name">{u.name}</div>
@@ -173,6 +179,11 @@ export function AddUnitSheet({ project, onClose, onAdd }: Props) {
       <div className="field">
         <label>Models in this entry</label>
         <QtyStepper value={quantity} onChange={setQuantity} />
+        {picked.models > 1 && (
+          <p style={{ margin: '6px 2px 0', fontSize: '0.73rem', color: 'var(--faint)' }}>
+            Datasheet default: {picked.models}
+          </p>
+        )}
       </div>
 
       <div className="field">
