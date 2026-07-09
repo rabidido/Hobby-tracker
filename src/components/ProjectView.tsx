@@ -4,6 +4,7 @@ import { STATUSES, STATUS_ORDER, nextStatus } from '../data/statuses';
 import { ProgressSummary } from './ProgressSummary';
 import { UnitCard } from './UnitCard';
 import { IconBack, IconPlus, IconSearch, IconSettings } from './icons';
+import { SearchField } from './SearchField';
 
 type Filter = StatusId | 'all';
 
@@ -86,14 +87,11 @@ export function ProjectView({
       {mine.length > 0 && (
         <>
           <div className="controls">
-            <div className="search">
-              <IconSearch />
-              <input
-                placeholder="Search this army…"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
-            </div>
+            <SearchField
+              value={query}
+              onChange={setQuery}
+              placeholder="Search this army…"
+            />
           </div>
 
           <div className="filterrow">

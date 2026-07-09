@@ -4,7 +4,7 @@ import type { NewUnit } from '../hooks/useCollection';
 import { ALL_UNITS, type FlatRosterUnit } from '../data/roster';
 import { Sheet } from './Sheet';
 import { BasedToggle, QtyStepper, StatusPicker } from './FormBits';
-import { IconSearch } from './icons';
+import { SearchField } from './SearchField';
 
 interface Props {
   project: Project;
@@ -96,15 +96,12 @@ export function AddUnitSheet({ project, onClose, onAdd }: Props) {
           </div>
         )}
 
-        <div className="search" style={{ margin: '12px 0' }}>
-          <IconSearch />
-          <input
-            autoFocus
-            placeholder={allFactions ? 'Search all datasheets…' : `Search ${project.faction}…`}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </div>
+        <SearchField
+          style={{ margin: '12px 0' }}
+          value={query}
+          onChange={setQuery}
+          placeholder={allFactions ? 'Search all datasheets…' : `Search ${project.faction}…`}
+        />
 
         <div className="picklist">
           {results.map((u) => (
