@@ -1,46 +1,35 @@
 import { useMemo, useState } from 'react';
 import type { OwnedUnit, Project, StatusId } from '../types';
-import type { NewUnit } from '../hooks/useCollection';
 import { STATUSES, STATUS_ORDER, nextStatus } from '../data/statuses';
 import { ProgressSummary } from './ProgressSummary';
 import { UnitCard } from './UnitCard';
-import { AddUnitSheet } from './AddUnitSheet';
-import { EditUnitSheet } from './EditUnitSheet';
-import { EditProjectSheet } from './EditProjectSheet';
 import { IconBack, IconPlus, IconSearch, IconSettings } from './icons';
 
 type Filter = StatusId | 'all';
 
 interface Props {
   project: Project;
-  projects: Project[];
   units: OwnedUnit[];
   onBack: () => void;
-  onAddUnit: (projectId: string, u: NewUnit) => void;
-  onUpdateUnit: (id: string, patch: Partial<OwnedUnit>) => void;
-  onRemoveUnit: (id: string) => void;
   onSetStatus: (id: string, status: StatusId) => void;
-  onUpdateProject: (id: string, patch: Partial<Project>) => void;
-  onRemoveProject: (id: string) => void;
+  onAddUnit: () => void;
+  onEditUnit: (u: OwnedUnit) => void;
+  onOpenSettings: () => void;
 }
 
 export function ProjectView({
   project,
-  projects,
   units,
   onBack,
-  onAddUnit,
-  onUpdateUnit,
-  onRemoveUnit,
   onSetStatus,
-  onUpdateProject,
-  onRemoveProject,
+  onAddUnit,
+  onEditUnit,
+  onOpenSettings,
 }: Props) {
+  // Search and status filter are transient in-page state — deliberately NOT
+  // part of browser history, so they never create back-button steps.
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState<Filter>('all');
-  const [addOpen, setAddOpen] = useState(false);
-  const [editingUnit, setEditingUnit] = useState<OwnedUnit | null>(null);
-  const [settingsOpen, setSettingsOpen] = useState(false);
 
   const mine = useMemo(() => units.filter((u) => u.projectId === project.id), [units, project.id]);
 
@@ -75,7 +64,7 @@ export function ProjectView({
         }))
         .sort((a, b) => a.name.localeCompare(b.name)),
     };
-  }, [mine, query, filter, project.id]);
+  }, [mine, query, filter]);
 
   return (
     <div className="app">
@@ -87,11 +76,7 @@ export function ProjectView({
           <h1 className="proj__title">{project.name}</h1>
           <p className="proj__sub">{project.faction}</p>
         </div>
-        <button
-          className="iconbtn"
-          onClick={() => setSettingsOpen(true)}
-          aria-label="Army settings"
-        >
+        <button className="iconbtn" onClick={onOpenSettings} aria-label="Army settings">
           <IconSettings />
         </button>
       </header>
@@ -173,7 +158,7 @@ export function ProjectView({
               key={u.id}
               unit={u}
               showFaction={groups.multi}
-              onOpen={setEditingUnit}
+              onOpen={onEditUnit}
               onAdvance={(unit) => {
                 const nx = nextStatus(unit.status);
                 if (nx) onSetStatus(unit.id, nx);
@@ -183,33 +168,9 @@ export function ProjectView({
         </section>
       ))}
 
-      <button className="fab" onClick={() => setAddOpen(true)}>
+      <button className="fab" onClick={onAddUnit}>
         <IconPlus /> Add unit
       </button>
-
-      {addOpen && (
-        <AddUnitSheet project={project} onClose={() => setAddOpen(false)} onAdd={onAddUnit} />
-      )}
-      {editingUnit && (
-        <EditUnitSheet
-          unit={editingUnit}
-          projects={projects}
-          onClose={() => setEditingUnit(null)}
-          onSave={onUpdateUnit}
-          onDelete={onRemoveUnit}
-        />
-      )}
-      {settingsOpen && (
-        <EditProjectSheet
-          project={project}
-          onClose={() => setSettingsOpen(false)}
-          onSave={onUpdateProject}
-          onDelete={(id) => {
-            onRemoveProject(id);
-            onBack();
-          }}
-        />
-      )}
     </div>
   );
 }

@@ -14,8 +14,9 @@ export function AddProjectSheet({ onClose, onCreate }: Props) {
   const [faction, setFaction] = useState(FACTIONS[0] ?? MIXED);
 
   function create() {
+    // onCreate navigates to the new army (replacing this sheet's history
+    // entry), so we don't also call onClose — that would double-navigate.
     onCreate(name.trim() || 'My Army', faction === MIXED ? 'Mixed' : faction);
-    onClose();
   }
 
   return (
